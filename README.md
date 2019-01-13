@@ -5,6 +5,12 @@ Small images based on alpine (final size about 26MB).
 
 ## Usage
 
+Pull the latest image, or see other (Images)[#images] below:
+
+```
+$ docker pull roberthodgen/hugo
+```
+
 ### Development server
 
 Note: Hugo by default sets a listen address, you'll need to use `--bind=0.0.0.0`.
@@ -43,6 +49,6 @@ serve:
 
 ## Images
 
-### roberthodgen/hugo:0.53 (latest)
+### `roberthodgen/hugo:0.53 (latest)`
 
 Hugo 0.53 https://github.com/gohugoio/hugo/releases/tag/v0.53
