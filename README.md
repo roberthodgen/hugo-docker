@@ -52,3 +52,7 @@ serve:
 ### `roberthodgen/hugo:0.53 (latest)`
 
 Hugo 0.53 https://github.com/gohugoio/hugo/releases/tag/v0.53
+
+### roberthodgen/hugo:0.53-extended
+
+Hugo 0.53 Extended https://github.com/gohugoio/hugo/releases/tag/v0.53
