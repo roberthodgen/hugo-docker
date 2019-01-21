@@ -1,7 +1,7 @@
 # hugo-docker
 Docker images for Hugo static site generator.
 
-Small images based on alpine (final size about 26MB).
+Small images based on alpine (final size about 26MB and 30MB for extended).
 
 ## Usage
 
@@ -49,10 +49,10 @@ serve:
 
 ## Images
 
-### `roberthodgen/hugo:0.53 (latest)`
+### `roberthodgen/hugo:0.53`, `roberthodgen/hugo:latest`
 
 Hugo 0.53 https://github.com/gohugoio/hugo/releases/tag/v0.53
 
-### roberthodgen/hugo:0.53-extended
+### `roberthodgen/hugo:0.53-extended`
 
 Hugo 0.53 Extended https://github.com/gohugoio/hugo/releases/tag/v0.53
