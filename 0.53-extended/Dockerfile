@@ -16,9 +16,9 @@ FROM alpine AS final
 
 COPY --from=setup /usr/bin/hugo /usr/bin/hugo
 
-RUN mkdir -p /usr/src/hugo
+RUN apk add --no-cache libc6-compat libstdc++  \
+    && mkdir -p /usr/src/hugo
 
 WORKDIR /usr/src/hugo
 
 ENTRYPOINT [ "hugo" ]
-

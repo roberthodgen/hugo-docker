@@ -7,4 +7,3 @@ endif
 .PHONY: build
 build:
 	@docker build --rm=false -t roberthodgen/hugo:${VERSION}-extended --build-arg VERSION=${VERSION} .
-
