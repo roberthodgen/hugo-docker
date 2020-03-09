@@ -49,7 +49,15 @@ serve:
 
 ## Images
 
-### `roberthodgen/hugo:0.53`, `roberthodgen/hugo:latest`
+### `roberthodgen/hugo:0.67.0`, `roberthodgen/hugo:latest`
+
+Hugo 0.67.0 https://github.com/gohugoio/hugo/releases/tag/v0.67.0
+
+### `roberthodgen/hugo:0.67.0-extended`
+
+Hugo 0.67.0 Extended https://github.com/gohugoio/hugo/releases/tag/v0.67.0
+
+### `roberthodgen/hugo:0.53`
 
 Hugo 0.53 https://github.com/gohugoio/hugo/releases/tag/v0.53
 
